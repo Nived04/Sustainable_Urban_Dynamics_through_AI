@@ -15,7 +15,7 @@ Urban areas face challenges related to traffic congestion, air pollution, and in
     - Develop predictive models to provide guidelines on optimal road usage based on road size, vehicle types, and traffic density.
     -	Provide real-time recommendations to drivers for choosing the best routes to minimize congestion and emissions.
     -	Include recommendations for public transport availability (e.g., ensuring x% of transport capacity during peak hours) to reduce private vehicle congestion.
-**4.	Public Transport Optimization:**
+4.	**Public Transport Optimization:**
     -	Analyse public transport usage patterns and identify opportunities to increase its use.
     -	Provide recommendations to the government and transport authorities on optimal public transport capacity and schedules to reduce traffic congestion.
     -	Promote policies that encourage public transport use over private vehicles.
