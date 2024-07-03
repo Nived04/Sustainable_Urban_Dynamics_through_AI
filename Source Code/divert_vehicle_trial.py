@@ -3,6 +3,7 @@ import pandas as pd
 
 #same data
 df = pd.read_csv('Vehicle_Count_vs_Route.csv')
+df = df.fillna(0)
 
 total_routes = len(df.index)
 routes = df['RouteNo'].tolist() # extraced routes
@@ -49,16 +50,19 @@ for i in range(5):
         row.append(count*weight) 
     matrix.append(row)
     
+for row in matrix:
+    print(row)
+
 def divert_vehicle(vehicle_type, matrix):
-    min_value = float('inf')
+    min_value = 100000
     best_group = -1
     for i in range(len(matrix)):
-        if matrix[vehicle_type][i] < min_value:
-            min_value = matrix[vehicle_type][i]
+        if matrix[i][vehicle_type] < min_value:
+            min_value = matrix[i][vehicle_type]
             best_group = i + 1  # Adding 1 to make it 1-indexed
     return best_group
 
-incoming_vehicle = random.choice(['Car', 'Bike', 'Bus'])
+incoming_vehicle = random.choice([0, 1, 2])
 
 assigned_group = divert_vehicle(incoming_vehicle, matrix)
 
