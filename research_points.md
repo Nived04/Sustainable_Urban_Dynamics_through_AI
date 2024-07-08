@@ -1,4 +1,4 @@
-# Traffic Congestion: Models, Costs and Optimal Transport (Chinmoy Mandayam, Balaji Prabhakar)
+### Traffic Congestion: Models, Costs and Optimal Transport (Chinmoy Mandayam, Balaji Prabhakar)
 
 ** Incentivize commute during off-peak hours to reduce congestion and proving that **
 ** the cost of incentivizing is less than the cost of congestion**
@@ -7,7 +7,7 @@
 - Fluid flow models for highways (LWR) 
 - Wasserstein Distance in optimal transport theory
 
-# Evolutionary Minimization of Traffic Congestion (Bother, Schiller, Fischbeck, Molitor, Krejca, Friedrich)
+### Evolutionary Minimization of Traffic Congestion (Bother, Schiller, Fischbeck, Molitor, Krejca, Friedrich)
 
 **Multiple-Routes Problem **
 Given a route network graph 𝐺 = (𝑉 , 𝐸) and a continuous flow of 𝑘 ∈ R≥0 drivers per unit of time between an origin 𝑠 ∈ 𝑉 
