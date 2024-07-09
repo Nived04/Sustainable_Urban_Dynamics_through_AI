@@ -36,7 +36,7 @@ for date in date_range:
 
 # Create a DataFrame and save to CSV
 df = pd.DataFrame(daily_rainfall, columns=['Date', 'Rainfall (mm)'])
-df.to_csv('daily_rainfall_may_october.csv', index=False)
+#df.to_csv('daily_rainfall_may_october.csv', index=False)
 
 plt.figure(figsize=(15, 6))
 plt.plot(pd.to_datetime(df['Date']), df['Rainfall (mm)'], marker='o', linestyle='-', markersize=3)
