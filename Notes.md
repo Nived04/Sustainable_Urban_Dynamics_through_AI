@@ -24,9 +24,6 @@
   - Each distribution can be visualized as a collection of vertical strips or bars. The task is to move each bar of one distribution to match another distribution using the minimum effort.
   - This effort required to move the "dirt" from one pile to another is what we call the Wasserstein Distance.
 - **Mathematical Expression**:
-  $$
-  W_p(\mu, \nu) := \left( \inf_{\gamma \in \Gamma(\mu, \nu)} \int_{M \times M} d(x, y)^p \, d\gamma(x, y) \right)^{\frac{1}{p}},
-  $$
-  where \( \Gamma(\mu, \nu) \) represents the collection of all measures on \( M \times M \) with marginals \( \mu \) and \( \nu \) on the first and second factors respectively. This set \( \Gamma(\mu, \nu) \) is also known as the set of all **couplings** of \( \mu \) and \( \nu \).
+  $$W_p(\mu, \nu) := \left( \inf_{\gamma \in \Gamma(\mu, \nu)} \int_{M \times M} d(x, y)^p \, d\gamma(x, y) \right)^{\frac{1}{p}},$$
   
 
