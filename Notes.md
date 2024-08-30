@@ -26,4 +26,20 @@
 - **Mathematical Expression**:
   $$W_p(\mu, \nu) := \left( \inf_{\gamma \in \Gamma(\mu, \nu)} \int_{M \times M} d(x, y)^p \, d\gamma(x, y) \right)^{\frac{1}{p}},$$
   
+### Lighthill-Whitham-Richards (LWR) Traffic Flow Model
+- **Concept**: The LWR model explains how traffic flows on highways by treating it like a fluid (similar to Burgers' Equation).
+
+- **Continuity Equation**:
+  - Similar to water in a pipe, the number of cars entering and leaving a road section should balance over time.
+  - The **continuity equation** is given by:
+    $$\frac{\partial \rho(x,t)}{\partial t} + \frac{\partial q(x,t)}{\partial x} = 0$$
+    where \( \rho(x,t) \) is the traffic density (cars per unit length) and \( q(x,t) \) is the traffic flow (cars per unit time).
+  - This equation links the change in traffic density and the change in flow over time and space.
+
+- **Shock Waves**:
+  - Sudden changes in traffic, like accidents, can cause sharp changes in car density—these are called **shock waves**.
+  - The speed of a shock wave \( s \) can be calculated using:
+    $$s = \frac{q_2 - q_1}{\rho_2 - \rho_1}$$
+    where \( \rho_1 \) and \( \rho_2 \) are the densities before and after the shock, and \( q_1 \) and \( q_2 \) are the corresponding traffic flows.
+  - The LWR model describes how these shock waves move through traffic and predicts their impact.
 
